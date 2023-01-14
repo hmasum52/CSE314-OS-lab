@@ -1,0 +1,5 @@
+"#include<bits/stdc++.h>" contains in
+"using namespace std;" contains in
+"int main(){" contains in
+"	int a, b;" contains in
+"	cin>>a>>b;" contains in
