@@ -1,0 +1,21 @@
+  199  cat Makefile | grep install
+  609  grep "the" twinkle.txt
+  610  grep -i "I" twinkle.txt
+  611  grep -v "the" twinkle.txt 
+  612  cat twinkle.txt | grep -i "I"
+  615  grep -v " " twinkle.txt| sort
+  616  grep "i" twinkle.txt| sort
+  617  grep -o "i" twinkle.txt
+  618  grep -o "i\w" twinkle.txt
+  619  grep -o "i\w*" twinkle.txt
+  620  grep -o "\bi\w*" twinkle.txt
+  621  grep -o "\w*i\w*" twinkle.txt
+  622  grep -o "\w*i\w*" twinkle.txt | sort
+  623  grep -o "\w*i\w*" twinkle.txt | sort | uniq
+  624  grep -o -i  "\w*i\w*" twinkle.txt | sort | uniq
+  625  grep -o -i  "\w*i\w*" twinkle.txt | tr '[:upper:]' '[:lower:]'  |sort | uniq
+  667  tldr grep
+  668  grep history
+  669  grep grep
+  670  history | grep grep
+  671  hitory | grep grep > grep.txt

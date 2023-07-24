@@ -130,6 +130,12 @@ cat twinkle.txt | grep -i "I" # print the lines containing the word "the" ignori
 grep -v "the" twinkle.txt # print the lines not containing the word "the"
 
 
+# grep all the words containing i ignoring the case
+# convert upper case to lower case
+# sort the words
+# remove the duplicate words
+grep -o -i  "\w*i\w*" twinkle.txt | tr '[:upper:]' '[:lower:]'  |sort | uniq
+
 ## VARIABLES ##
 x=10 # declare a variable x and assign 10 to it
 # can't use spaces

@@ -5,7 +5,7 @@
 # }
 
 fact() {
-    if (( $1 == 0 )); then 
+    if [ $1 -eq 0 ]; then 
         echo 1 
         return
     fi
